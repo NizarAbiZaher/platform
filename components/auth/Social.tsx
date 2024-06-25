@@ -15,7 +15,7 @@ export const Social = () => {
     <div className="flex gap-2">
       <Button
         size="lg"
-        className="bg-base100 rounded-[5px] border-baseContent border-2 text-md text-baseContent"
+        className="bg-base100 rounded-[5px] border-baseContent border-2 text-md text-baseContent hover:bg-white/5 transition"
         variant="outline"
         onClick={() => onClick('google')}
       >
@@ -24,7 +24,7 @@ export const Social = () => {
 
       <Button
         size="lg"
-        className="bg-base100 rounded-[5px] border-baseContent border-2 text-md text-baseContent"
+        className="bg-base100 rounded-[5px] border-baseContent border-2 text-md text-baseContent hover:bg-white/5 transition"
         variant="outline"
         onClick={() => onClick('github')}
       >

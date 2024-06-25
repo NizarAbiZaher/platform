@@ -8,12 +8,9 @@ import { ConfettiProvder } from '@/components/providers/confetti-provider'
 import { Poppins } from 'next/font/google'
 import Navbar from '@/components/nav'
 const poppins = Poppins({
-  weight: ["400", "500", "600", "700", "800", "900"],
-  subsets: ["latin-ext"],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  subsets: ['latin-ext']
 })
-
-
-
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nizzyabi.com'),
@@ -34,15 +31,14 @@ export default async function RootLayout({
   const session = await auth()
   return (
     <SessionProvider session={session}>
-      <html lang="en" className='bg-base200'>
-        <body className={poppins.className}> 
-            <Navbar />
-            {/*<Scroll />*/}
-            <ToastProvider />
-            <ConfettiProvder />
-            {children}
-            <Analytics />
-            
+      <html lang="en" className="bg-base200">
+        <body className={'min-h-screen flex flex-col ' + poppins.className}>
+          <Navbar />
+          {/*<Scroll />*/}
+          <ToastProvider />
+          <ConfettiProvder />
+          {children}
+          <Analytics />
         </body>
       </html>
     </SessionProvider>

@@ -94,24 +94,19 @@ export function TestimonialCard() {
               className="flex h-full cursor-default"
               key={testimonial.username}
             >
-              <div className="bg-base100 relative group/card border-slate-100/20 h-full rounded-lg px-5 py-4 border-2 ">
+              <div className="bg-base100 relative group/card border-slate-100/20 h-full rounded-lg px-5 py-4 border-2 hover:bg-primary/5 hover:border-primary/50 transition duration-200">
                 <div className="flex justify-between">
-                  <div
-                    
-                    className="text-base sm:text-xl font-bold text-baseContent flex space-between items-center"
-                  >
+                  <div className="text-base sm:text-xl font-bold text-baseContent flex space-between items-center">
                     <div className="flex gap-2 items-center">
                       <Avatar
                         src={testimonial.avatar}
                         alt={`${testimonial.username}s Avatar`}
                       />
                       <span className="flex gap-0.5 items-center">
-                        
                         @{testimonial.username}
                       </span>
                     </div>
                   </div>
-                  
                 </div>
 
                 <div className="font-medium pt-4 text-baseContentSecondary opacity-70">

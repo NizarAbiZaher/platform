@@ -53,8 +53,6 @@ html {
   }
 }
 
-
-
 @media screen and (max-width: 768px) {
   .small-screen {
     display: block;
@@ -170,3 +168,7 @@ html {
   width: auto !important;
 }
 
+.mockup-window:before {
+  opacity: 0.75 !important;
+  box-shadow: 1.4em 0 #ef4444, 2.8em 0 #facc15, 4.2em 0 #22c55e !important;
+}
