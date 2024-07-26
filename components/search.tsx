@@ -50,7 +50,7 @@ const commandInputs = [
   },
   {
     title: 'Github',
-    link: 'https://github.com/NizarAbiZaher'
+    link: 'https://github.com/nizzyabi'
   },
   {
     title: 'Youtube',

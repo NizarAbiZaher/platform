@@ -65,10 +65,10 @@ of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
-- **Nizar Abi** - _Project owner_ - [NizarAbiZaher](https://github.com/NizarAbiZaher)
+- **Nizar Abi** - _Project owner_ - [NizarAbiZaher](https://github.com/nizzyabi)
 
 See also the list of
-[contributors](https://github.com/NizarAbiZaher/platform/graphs/contributors)
+[contributors](https://github.com/nizzyabi/platform/graphs/contributors)
 who participated in this project.
 
 ## License

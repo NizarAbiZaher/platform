@@ -10,7 +10,7 @@ If you have found a security vulnerability in our project, please report it to u
 
 #### Option 1: GitHub Issue (Preferred)
 
-1. Navigate to the [Issues](https://github.com/NizarAbiZaher/platform/issues) section of this repository.
+1. Navigate to the [Issues](https://github.com/nizzyabi/platform/issues) section of this repository.
 2. Click on the "New Issue" button.
 3. Select the "Security Vulnerability" template (if available).
 

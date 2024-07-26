@@ -18,7 +18,7 @@ export default function Footer() {
   <nav>
     <h6 className="footer-title">Socials</h6> 
     <div className="grid grid-flow-col gap-4">
-      <Link href='https://github.com/NizarAbiZaher'>
+      <Link href='https://github.com/nizzyabi'>
         <BsGithub className='h-7 w-7'/>
       </Link>
       <Link href='https://x.com/NizzyABI'>
